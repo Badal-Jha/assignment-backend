@@ -20,7 +20,7 @@ module.exports.getPreAssement=(balanceSheet,loanAmount)=>{
         let sum=0;
 
          lastYearBalances.forEach(sheet => {
-            sum+=sheet.assetValue;
+            sum+=sheet.assetsValue;
          });
          averageAssetValue=sum/lastYearBalances.length;
 
